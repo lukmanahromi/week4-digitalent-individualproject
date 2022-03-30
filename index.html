@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <div class="container">
@@ -21,7 +21,7 @@
                 <table>
                     <tr>
                         <td colspan="2"><button class="operator btn-clear" id="clear">Clear</button></td>
-                        <td><button class="operator btn-operator" value="/" id="/">/</button></td>
+                        <td><button class="operator btn-decimal" value=".">.</button></td>
                         <td><button class="operator btn-operator" value="*" id="*">*</button></td>
                         
                     </tr>
@@ -29,29 +29,32 @@
                         <td><button class="btn-number" value="7" id="7">7</button></td>
                         <td><button class="btn-number" value="8" id="8">8</button></td>
                         <td><button class="btn-number" value="9" id="9">9</button></td>
-                        <td><button class="operator btn-operator" value="+" id="+">+</button></td>
+                        <td><button class="operator btn-operator" value="/" id="/">/</button></td>
+                       
                     </tr>
                     <tr>
                         <td><button class="btn-number" value="4" id="4">4</button></td>
                         <td><button class="btn-number" value="5" id="5">5</button></td>
                         <td><button class="btn-number" value="6" id="6">6</button></td>
-                        <td><button class="operator btn-operator" value="-" id="-">-</button></td>
+                        <td><button class="operator btn-operator" value="+" id="+">+</button></td>
+                        
                     </tr>
                     <tr>
                         <td><button class="btn-number" value="1" id="1">1</button></td>
                         <td><button class="btn-number" value="2" id="2">2</button></td>
                         <td><button class="btn-number" value="3" id="3">3</button></td>
-                        <td rowspan="2"><button class="operator equal-sign" id="equal">=</button></td>
+                        <td><button class="operator btn-operator" value="-" id="-">-</button></td>
                     </tr>
                     <tr>
                         <td><button class="btn-number" value="0" id="0">0</button></td>
-                        <td><button class="operator btn-decimal" value=".">.</button></td>
-                        <td><button class="operator btn-percentage">%</button></td>
+                        <td><button class="operator btn-operator" value="mod">mod</button></td>
+                        <td><button class="operator btn-operator" value="%">%</button></td>
+                        <td><button class="operator equal-sign" id="equal">=</button></td>
                     </tr>
                 </table>
             </div>
         </div>
     </div>
-<script src="script.js"></script>
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
